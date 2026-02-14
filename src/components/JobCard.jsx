@@ -1,8 +1,7 @@
-import Glass from "./Glass";
 import { useState } from "react";
 import { JOB_STATUSES } from "../data/jobConfig";
 import { useJobs } from "../context/JobContext";
-import StatusBadge from "./statusBadge";
+import StatusBadge from "./StatusBadge";
 
 function JobCard({ job, onDelete, onEdit }) {
 
